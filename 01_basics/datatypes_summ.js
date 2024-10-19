@@ -35,3 +35,28 @@ const myfunction=function()
 }
 console.log(typeof myfunction)
 console.log(typeof myfunctionkflsd)
+
+//++++++++++++++++++++++++++++++++++++++++++
+
+//Stack (Primitive) memory and heap(NOn-Primitive) memory
+
+let myName = "Krushna"
+let anothername = myName
+anothername = "Swami"
+
+console.log(anothername)
+console.log(myName)
+
+let userOne = 
+{
+email : "skrushna1983@gmail.com",
+Upi : "user@ybl"
+
+}
+let userTwo=userOne
+
+userTwo.email = "ktackle0706@gmail.com"
+
+console.log(userOne.email)
+
+console.log(userTwo.email)
